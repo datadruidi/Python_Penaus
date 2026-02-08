@@ -3,6 +3,9 @@
 This repository was created from **Black-Hat-Python**:
 https://github.com/aw-junaid/Black-Hat-Python
 
+![Original Source](images/original_source.png)
+
+
 ## About
 The files in this repo are largely the same as in the original repository, but I’ve **modified them by adding comments (and small clarifications)** to help me understand how the code works.
 
