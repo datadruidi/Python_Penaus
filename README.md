@@ -3,7 +3,7 @@
 This repository was created from **Black-Hat-Python**:
 https://github.com/aw-junaid/Black-Hat-Python
 
-![Original Source](images/original_source.png)
+![Original Source](assets/original_source.png)
 
 
 ## About
