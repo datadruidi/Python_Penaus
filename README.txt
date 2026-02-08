@@ -1,39 +1,17 @@
-README.txt
+# Python_Penaus
 
-Ohjeet Python-skriptien kompiloimiseksi suoritettaviksi tiedostoiksi PyInstallerin avulla
+This repository was created from **Black-Hat-Python**:
+https://github.com/aw-junaid/Black-Hat-Python
 
-Tässä ohjeessa käytetään esimerkkinä keylogger.py tiedostoa. Voit soveltaa näitä ohjeita mihin tahansa Python-skriptiin samassa kansiosta.
+## About
+The files in this repo are largely the same as in the original repository, but I’ve **modified them by adding comments (and small clarifications)** to help me understand how the code works.
 
-Vaihe 1: PyInstallerin asennus
+## Notes
+- Purpose: **learning and code comprehension**
+- Credit for the original implementations belongs to the upstream project.
 
-Ennen kuin aloitat, varmista, että sinulla on PyInstaller asennettuna. Jos se ei ole vielä asennettu, voit asentaa sen käyttämällä Pythonin paketinhallintaa (pip). Avaa komentorivi tai terminaali ja suorita seuraava komento:
+## Disclaimer
+These examples are for **educational and authorized security testing only**. Do not use them on systems you don’t own or have explicit permission to test.
 
-bash
-
-pip install pyinstaller
-
-Vaihe 2: Skriptin kompiloiminen
-
-    Avaa komentorivi tai terminaali.
-
-    Siirry hakemistoon, jossa keylogger.py (tai muu kompiloitava skripti) sijaitsee.
-
-    Suorita seuraava komento:
-
-    bash
-
-    pyinstaller --onefile --noconsole keylogger.py
-
-    Tämä komento luo yhden suoritettavan tiedoston, joka sisältää kaikki tarvittavat riippuvuudet, ja estää konsoli-ikkunan avautumisen sovellusta suoritettaessa. Vaihtoehtoisesti voit jättää pois --onefile-parametrin, jolloin PyInstaller luo hakemiston, jossa suoritettava tiedosto ja kaikki riippuvuudet sijaitsevat.
-
-Vaihe 3: Suoritettavan tiedoston käyttö
-
-PyInstaller luo dist-nimisen hakemiston, joka sisältää kompiloidun suoritettavan tiedoston. Voit jakaa tämän tiedoston tai koko dist-hakemiston muille järjestelmille.
-
-    Jos käytit --onefile-parametria, löydät yhden suoritettavan tiedoston dist-hakemistosta.
-    Jos et käyttänyt --onefile-parametria, dist-hakemisto sisältää suoritettavan tiedoston lisäksi muita tarvittavia tiedostoja.
-
-Lisähuomiot
-
-    Kompiloitu suoritettava tiedosto toimii vain samantyyppisessä käyttöjärjestelmässä, jossa se on luotu (esim. Windowsissa luotu suoritettava toimii vain Windowsissa).
-    Ole tietoinen mahdollisista turvallisuusriskeistä, kun jaat suoritettavia tiedostoja, erityisesti herkkien toimintojen, kuten näppäimistön seurannan, osalta.
+## License
+Please refer to the upstream repository’s license and comply with its terms.
